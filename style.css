@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #ffffff;
+    min-width: 500px;
+
+}
+
+.headerTitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+
+}
+
+.headerTitle h2 {
+    text-transform: uppercase;
+}
+
+.headerTitle i {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.headerTitle i:hover {
+    color: red;
+    background-color: #f9f9f9;
+}
+
+.desc {
+    font-size: 28px;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+}
+
+.status {
+    padding: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.status img {
+    height: 100px;
+}
+
+.status h3 {
+    color: green;
+    font-size: 30px;
+}
+
+.contact {
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.moniter {
+    padding: 20px;
+    
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.moniter h3 {
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.moniter a {
+    padding: 20px;
+    border-radius: 72% 28% 73% 27% / 13% 81% 19% 87%;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 7px 11px -3px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 5px 7px 11px -3px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 5px 7px 11px -3px rgba(0, 0, 0, 0.47);
+    text-decoration: none;
+}
+
+.moniter a:hover {
+    border-radius: 25% 75% 41% 59% / 67% 18% 82% 33%;
+}
+
+
+.contact .support{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.contact .support i{
+    margin-right: 10px;
+}
+
+.contact .pledge{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact .pledge p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.copyright{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.moniter h3 span{
+    font-weight: 300;
+}
+
+#host{
+    white-space: pre-line;
+    text-align: center;
+}
+
+.newhost{
+    font-size: 18px;
+    max-width: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.newhost h3{
+    padding: 10px;
+}

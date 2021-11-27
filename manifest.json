@@ -1,0 +1,28 @@
+{
+    "name": "Tactian",
+    "description": "Anti Phishing Tool to prevent phishing",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "host_permissions": [
+    "*://*.ipqualityscore.com/api/json/url/MrvuJsju6g8tbjNnrI1al9zRcjS86cR2/*"
+  ],
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    },
+
+    "icons": {
+        "128": "logo.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "file:///D:/study%20material/projects/web%20projects/links/index.html",
+                "http://*/*"
+
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
